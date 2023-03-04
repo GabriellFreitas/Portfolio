@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Rubik', AriaL;
+
+}
+
+body {
+    background-image: url(./img/fundo.png);
+}
+
+.conteiner {
+    perspective: 1000px;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+button {
+    cursor: hand;
+    text-transform: uppercase;
+    background-color: #3ba8c9;
+    color: white;
+    font-weight: 900;
+    border: none;
+    padding: 10px;
+    margin: 2em auto;
+    border-radius: 10px;
+    transition: background .6s ease-in, transform .5s .25s ease-in-out;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+button:hover {
+    background-color: #139dc7;
+    transform: scale(1.2);
+}
+
+select {
+    margin-top: 20px;
+}
+
+input,
+option {
+    border: black solid 0.01px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input::after {
+    border: #161af0 solid 0.5px;
+}
+
+h1 {
+    text-align: center;
+    color: #3ba8c9;
+    font-size: 40px;
+    text-shadow: 2px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+
+}
+
+.result {
+    margin-bottom: 20px;
+}
+
+#limpar_campo{
+    margin-left: 20px;
+}

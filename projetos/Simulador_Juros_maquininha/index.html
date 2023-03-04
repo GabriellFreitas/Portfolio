@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/icon.png" type="image/png">
+    <title>Simulação</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <h1>Simulação <br> De <br> Credito</h1>
+        <br>
+
+        <input id="valor" type="number" required placeholder="Digite aqui o valor desejado!">
+
+
+        <br>
+        <select id="option">
+            <option id="x2" value="4.59">x2</option>
+            <option id="x3" value="5.97">x3</option>
+            <option id="x4" value="7.33">x4</option>
+            <option id="x5" value="8.66">x5</option>
+            <option id="x6" value="9.96">x6</option>
+            <option id="x7" value="11.24">x7</option>
+            <option id="x8" value="12.50">x8</option>
+            <option id="x9" value="13.73">x9</option>
+            <option id="x10" value="14.93">x10</option>
+            <option id="x11" value="16.12">x11</option>
+            <option id="x12" value="17.28">x12</option>
+        </select>
+        <br>
+        <select id="optionC">
+            <option id="naHora" value="5.31">Na Hora</option>
+            <option id="14Dias" value="4.36">14 Dias</option>
+            <option id="30Dias" value="3.60">30 Dias</option>
+        </select>
+        <br>
+        <div class="btn">
+        <button onclick="simular()" type="submit">Simular</button>
+        <button id="limpar_campo">Limpar</button>
+        </div>
+        <div class="result">
+            <p id="resultadoTotal"></p>
+            <p id="Resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
