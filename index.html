@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+
+    <style>
+        @media screen and (max-width:450px) {
+
+            .sob {
+                padding-top: 200px;
+            }
+
+            .experi {
+                padding-top: 200px;
+            }
+
+            .sob_text {
+                width: 300px;
+                font-size: 14px;
+            }
+
+            .list_text {
+                font-size: 12px;
+            }
+
+            .logo {
+                font-size: 25px;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <!--meu cabeçalho que contém logo é meu menu-->
+
+
+        <div class="logo">
+            <span>
+                Portfólio
+            </span>
+        </div>
+        <nav class="menu">
+
+            <ul>
+                <!--menu do portfólio-->
+                <li><a class="list_text" href="#inicio">Início</a></li>
+
+                <li><a class="list_text" href="#experiencia">Experiência</a></li>
+
+                <li><a class="list_text" href="#sobre">Sobre</a></li>
+
+                <li><a class="list_text" href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="conteiner">
+        <div id="inicio" class="apre">
+            <!--minha apresentação-->
+            <p>Olá, eu sou</p>
+            <h1>Gabriel Freitas</h1>
+            <p>Desenvolvidor Front-End</p>
+            <a href="https://www.linkedin.com/in/gabriel-freitas-97946997/">
+                <button class="btn">Linkedin</button>
+            </a>
+        </div>
+        <!--experiência-->
+        <div id="experiencia" class="experi">
+
+            <h1 class="titleExperi">Experiência</h1>
+            <p class="subExperi">Aqui estão alguns de meus projetos acadêmicos</p>
+
+            <div class="tabela_projeto">
+                <a class="proje" href="../Simulador_Juros_maquininha/index.html">
+                    <div class="projeto1">
+                        <p class="pro">1º Projeto simulador de juros</p>
+                </a>
+            </div>
+            <a class="proje" href="#">
+                <div class="projeto1">
+                    <p class="pro">2º Projeto </p>
+                </div>
+            </a>
+        </div>
+
+        <!--sobre min-->
+        <div id="sobre" class="sob">
+
+            <h1 class="titleExperi">Sobre</h1>
+            <p class="sob_text">Sou estudante na área de tecnologia e atualmente estou cursando Análise e
+                Desenvolvimento de Sistemas, além de estar me aprimorando como programador front-end. Durante o meu
+                curso, aprendi o básico de HTML, CSS e JavaScript e estou sempre em busca de novos conhecimentos e
+                habilidades para aprimorar minhas capacidades.
+
+                Sou uma pessoa muito esforçada e dedicada, e gosto de me manter atualizado com as últimas tendências e
+                novidades na área de tecnologia. Além disso, estou sempre buscando evoluir e me adaptar às mudanças do
+                mercado, para estar sempre à frente das demandas do setor.
+
+                Fora dos estudos, passo grande parte do meu tempo livre no computador, seja jogando ou pesquisando sobre
+                novas tecnologias e soluções. Acredito que a tecnologia é uma das áreas mais dinâmicas e empolgantes
+                para se trabalhar, e estou animado para fazer parte deste universo em constante evolução.</p>
+        </div>
+        <!--meu contato-->
+        <div id="contato" class="contat">
+
+            <h1 class="titleExperi">Contatos</h1>
+
+            <div class="img_contato">
+
+                <button class="email" onclick="copyEmail()"><img class="estilo" src="./img/email.png"></button>
+
+                <div id="email" style="display:none">gabriel18surf@gmail.com</div>
+
+                <a href="https://www.linkedin.com/in/gabriel-freitas-97946997/">
+                    <img class="estilo" src="./img/linkedin.png">
+                </a>
+                <a href="https://github.com/GabriellFreitas">
+                    <img class="estilo" src="./img/github.png"></a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p class="direitos">Direitos autorais: &copy; Meu Portfólio, 2023</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
