@@ -11,7 +11,7 @@ html {
 
 body {
     background-size: cover;
-   
+
 }
 
 .container {
@@ -65,7 +65,7 @@ ul {
 li {
     display: inline-block;
     padding: 8px;
-   
+
 }
 
 a {
@@ -77,7 +77,7 @@ a {
 
 
 
-.list_text{
+.lista_menu {
     display: flex;
     list-style: none;
     font-size: 15px;
@@ -85,11 +85,11 @@ a {
     transition: transform 0.4s ease-in-out;
 }
 
-.list_text:hover {
+.lista_menu:hover {
     transform: scale(1.5);
 }
 
-.apre {
+.apresentacao {
     text-align: center;
     display: flex;
     align-items: center;
@@ -103,6 +103,8 @@ h1 {
 }
 
 p {
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 25px;
 }
 
@@ -158,7 +160,7 @@ footer {
     font-size: 15px;
 }
 
-.experi {
+.experiencia {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,24 +171,15 @@ footer {
 
 }
 
-.pro {
+.texto_projeto {
     margin-top: 10px;
     font-size: 15px;
 }
 
-.projeto1 {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.conteudo_tabela {
     border: solid 2px black;
     border-radius: 4px;
     margin-bottom: 40px;
-    width: auto;
-
-
-}
-
-.projeto1 {
     display: block;
     width: 300px;
     height: 60px;
@@ -195,14 +188,13 @@ footer {
     text-decoration: none;
     color: black;
     letter-spacing: 2px;
-    text-align: center;
     position: relative;
     transition: all .80s;
     margin: 0 auto;
     z-index: 2;
 }
 
-.projeto1:after {
+.conteudo_tabela:after {
     position: absolute;
     content: "";
     top: 0;
@@ -214,52 +206,36 @@ footer {
     z-index: -1;
 }
 
-.projeto1:hover {
+.conteudo_tabela:hover {
     color: black;
 }
 
-.projeto1:hover:after {
+.conteudo_tabela:hover:after {
     width: 100%;
 }
 
-.projeto1 {
-    margin-top: 10px;
+.conteudo_tabela {
+    margin-top: 15px;
 }
 
-.titleExperi {
-    margin: 10px;
-}
-
-.subExperi {
-    margin: 50px;
-}
-
-.text_projetos {
-    font-size: 15px;
-    margin: 10px;
-
-}
-
-.proje {
+.projeto_link {
 
     align-items: center;
     justify-content: center;
     width: 400px;
-
 }
 
-
-.sob {
+.sobre {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 280px;
+    padding-top: 380px;
     margin-bottom: 20px;
 
 }
 
-.sob_text {
+.sobre_texto {
     text-align: center;
     display: block;
     width: 600px;
@@ -267,7 +243,7 @@ footer {
     font-size: 1.4rem;
 }
 
-.contat {
+.contato {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -284,6 +260,10 @@ footer {
 
 img {
     margin: 15px;
+}
+
+.img_contato {
+    margin-top: 150px;
 }
 
 .estilo {
